@@ -1,139 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
-*{
+body, html {
     margin: 0;
     padding: 0;
-}
-
-.container{
-    max-width: 80vw;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.navbar{
-    display: flex;
-    height: 67px;
-}
-.navbar li{
-    list-style: none;
-    margin: 0 12px;
-}
-
-.topleft{
-    width: 50%;
-}
-
-.topright{ 
-    width: 50%;
-}
-
-.section1{
-   max-height: 100vh; 
-   color: #711e15;
-}
-
-.section1 h1{
-    color: #37110d;
-    font-size: 2rem;
-}
-
-.logo{
-    font-size: 1.3rem;
-}
-
-.dumbellimg{
-    width: 280px;
-}
-
-.topright .gymimg{
-    width: 460px;
-}
-
-.section2{
-    padding: 73px;
-}
-
-.section2 h1{
-    font-size: 2.3rem;
-}
-
-.section2 p{
-    padding: 0 8vw;
-    text-align: center;
-}
-
-.box{
-    padding: 8px 0;
-    margin: 12px 22px;
-    min-width: 20vw;
-    border: 2px solid rgb(120, 54, 16);
-    border-radius: 8px;
-    text-align: center;
-}
-
-.box h2{
-    font-size: 2rem;
-    padding: 15px 0;
-}
-
-.highlighted{
-    font-size: 1.2rem;
-    font-weight: bolder;
-}
-
-.box ul{
-    list-style-type: none;
-}
-
-.box ul li{
-   margin: 12px 2px;
-}
-
-.plantable{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.section3 table{
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  nav.navbar {
+    position: fixed;
     width: 100%;
-    margin-bottom: 140px;
-    margin-top: 20px;
-    border-collapse: collapse;
-}
-
-.section3 table th{ 
-    width: 23vw; 
-    border-bottom: 2px solid black;
-    padding: 15px 0;
-} 
-
-.section3 table td{   
-    border-bottom: 2px solid black; 
-} 
- 
-
-.section3 h1{
-    font-size: 2.3rem;
-}
-
-.section3{
-    padding: 73px;
-}
-
-footer{
-    padding: 23px;
-    text-align: center;
-}
-.buttons{
+ background-color: rgb(31, 31, 114);
+    padding: 10px 30px;
+    transition: background-color = 0.5s;
+  }
+  
+  nav.navbar.scrolled {
+    background-color: rgb(216, 27, 27); 
+  }
+  
+  .nav-menu {
+  list-style: circle;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 12px;
-}
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-link {
+    text-decoration:solid;
+    color: white;
+    font-size: 23px;
+    font-style:italic;
+    padding:4px 10px;
+    transition: color 0.5s, background-color 0.5s;
+  }
+  
+  .nav-link:hover {
+    color: #0d4629;
+    background-color: white;
+    border-radius: 5px;
+  }
+  section{
+    padding: 80px 09px;
+    margin-top: 50px;
 
-.deal{
-    font-size: 1.2rem;
-    font-weight: bolder;
-    margin: 12px 0;
-}
+  }
+  
+  #home { background-color: #a4b9f1; }
+  #play { background-color: #ce4a64; }
+  #Guide { background-color: #84e8c8; }
+  #Purchases { background-color: rgba(86, 134, 156, 0.701); }
+  #Support { background-color: grey;}
