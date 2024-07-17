@@ -1,2 +1,2 @@
 # SCD_WD_1
-I make a responsive landing page which is include about our gym page .
+A NAVIGATION BAR THAT CHANGES COLOUR OR STYLE WHEN HOOVERED OR SCROLL.
